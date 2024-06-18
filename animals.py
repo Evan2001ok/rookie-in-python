@@ -3,7 +3,7 @@
 
 # In[4]:
 
-
+# The module name is animals, and different classes are used to implement different functions.
 class Dog:
     def speak(self):
         print("woof!")
