@@ -3,18 +3,17 @@
 
 # In[4]:
 
-# The module name is animals, and different classes are used to implement different functions.
+
 class Dog:
     def speak(self):
         print("woof!")
-    def eat(self,a):
-        if a == 'food':
-            print("yummy food")
-        else:
-            print("That's not food!")
-class Cat:
-    def speak(self):
-        print("Meow!")
+
+    def __init__(self, name):
+        self.name = name
+
+    def hear(self, words):#when dog hear some one call it, dog speak
+        if self.name in words:
+            self.speak()
 
 
 # In[ ]:
